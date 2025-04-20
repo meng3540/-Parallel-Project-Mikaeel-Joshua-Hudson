@@ -27,9 +27,9 @@ Initial configuration and setup of the edge device and the software:
 
 List of possible hardware,software frameworks and libraries that can be used:
 - Hardware: Monitor, keyboard, camera, NVIDIA Jetson 6.1 device, mouse
-- Software framework: JetPack SDK, TensorRT, ONNX Runtime, Ultralytics YOLOv11N, VS Code, jtop and 
+- Software framework: JetPack SDK, TensorRT, ONNX Runtime, Ultralytics, YOLOv11N, VS Code, jtop and 
   PuTTY.
-- Libraries: opencv-python, numpy, torch, onnx, onnxruntime-gpu
+- Libraries: opencv-python, numpy, torch, onnx, onnxruntime-gpu, Ultralytics
 
   
 Choice of pre-trained models and rationale for your selection
