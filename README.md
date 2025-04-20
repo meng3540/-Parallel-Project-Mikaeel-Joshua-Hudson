@@ -1,7 +1,9 @@
 # -Parallel-Project-Mikaeel-Joshua-Hudson
 
 Discussion on problem statement:
+
 There is a challenge in achieving real-time object detection on embedded devices while optimizing its performance and hardware efficiency. With how AI is being integrated into alot of fields now, there is a need or high demand for creating AI that is fast, has the highest efficiency and do not have latency or privacy issues. GPU-accelerated embedded devices can be leveraged by offloading the computational burden of the AI inferencing to a more highly parallelized hardware in which the NVIDIA Jetson Nano 6.1 was used in this case. This served to provide significant improvements in throughput and latency. The steps followed to demonstrate this idea would be through the exploration of the NVIDIA Jetson Nano 6.1 which was used to implement a basic object detection model. The SD card would be prepared and inserted into Jetson device, Jetson would be booted, connected and configured with PuTTY. It would then be connected to a Wi-Fi network. Camera would be setup, Visual studio would be installed along with the necessary extensions and dependencies. Model would be selected, program would be created and modified to use camera. Finally, it would be optimized, monitored and put through testing until ready to be deployed. Skills in CUDA programming, optimization of AI and embedded systems would be further developed and focus would be given more on AI application for edge devices.
+
 
 Initial configuration and setup of the edge device and the software:
    - Flashing the SD card:
@@ -28,6 +30,7 @@ List of possible hardware,software frameworks and libraries that can be used:
 - Software framework: JetPack SDK, TensorRT, ONNX Runtime, Ultralytics YOLOv5, VS Code, jtop and 
   PuTTY.
 - Libraries: opencv-python, numpy, torch, onnx, onnxruntime-gpu
+
   
 Choice of pre-trained models and rationale for your selection
 - YOLOv5
