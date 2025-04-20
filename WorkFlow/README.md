@@ -20,11 +20,15 @@ every time you use the jetson nano)
 Connecting to WIFI
 1. Command to connect to your Wi-Fi network (replace angle brackets with SSID and
 password):
-    a. sudo nmcli device wifi connect <MY_WIFI_AP> password <MY_WIFI_PASSWORD>
-    b. Further guide can be found here (Source 3)
-2. A message should come up saying it is successfully activated, once this is active, find and record the IP address of the Jetson Nano using: $ ifconfig in the command line
-3. If the PC and the Jetson nano are on the same Wi-Fi network, the serial cable can be disconnected and you can use PuTTY to connect to the jetson through wifi:
-    a. PuTTY -> enter IP of Jetson Nano -> Choose the SSH -> Use the same user ID and password that was used to set up serial connection
+
+   a. sudo nmcli device wifi connect <MY_WIFI_AP> password <MY_WIFI_PASSWORD>
+
+   b. Further guide can be found here (Source 3)
+   
+3. A message should come up saying it is successfully activated, once this is active, find and record the IP address of the Jetson Nano using: $ ifconfig in the command line
+4. If the PC and the Jetson nano are on the same Wi-Fi network, the serial cable can be disconnected and you can use PuTTY to connect to the jetson through wifi:
+
+   a. PuTTY -> enter IP of Jetson Nano -> Choose the SSH -> Use the same user ID and password that was used to set up serial connection
    
 Acquiring Pictures from camera
 1. From this source (Source 4) follow the following steps:
