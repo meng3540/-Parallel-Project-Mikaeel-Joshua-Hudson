@@ -27,13 +27,13 @@ Initial configuration and setup of the edge device and the software:
 
 List of possible hardware,software frameworks and libraries that can be used:
 - Hardware: Monitor, keyboard, camera, NVIDIA Jetson 6.1 device, mouse
-- Software framework: JetPack SDK, TensorRT, ONNX Runtime, Ultralytics YOLO11 Nano, VS Code, jtop and 
+- Software framework: JetPack SDK, TensorRT, ONNX Runtime, Ultralytics YOLOv11N, VS Code, jtop and 
   PuTTY.
 - Libraries: opencv-python, numpy, torch, onnx, onnxruntime-gpu
 
   
 Choice of pre-trained models and rationale for your selection
-- YOLO 11 Nano
+- YOLOv11N
 
 The reasoning for choosing this pre-trained model is due to how optimized this model is for real time object detection as it offers a good ballance between speed and accuracy when compared to others. It provides proper detection acrosss many common obects wihtout the need for custom training. Its very flexible as there are different model sizes of YOLOv5 which can be chosen based on performance or resource limitations. Lastly, it is very easy to implement as it supports GPU acceleration and integration with the TensorRT.
 
