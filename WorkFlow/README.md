@@ -1,10 +1,11 @@
 NOTE: links may not work, each source is chronologically provided at the bottom of this document
+
 SD card Preparation
-1. Download Jetpack 6.1 (Source 1) : SD Card Image Method -> Download Jetson Orin
-Super Developer kit
+1. Download Jetpack 6.1 (Source 1) : SD Card Image Method -> Download Jetson Orin Super Developer kit
 2. SD formatter: Format micro-SD card
 3. Balena Etcher: Write the downloaded image file to the card
 4. Refer to the guide (Source 2)
+
 Initial Setup
 1. Boot up Jetson with the SD card image
 2. Connect computer with USB port on PC and USB-C port on jetson nano
