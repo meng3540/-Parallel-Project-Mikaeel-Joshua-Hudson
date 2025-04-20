@@ -10,9 +10,18 @@ Initial configuration and setup of the edge device and the software:
      
    - Booting and serial connection setup for NVIDIA JEtson 6.1:
       The Jetson Nano was connected to a host PC using a USB-C cable and intiial setup was done 
-      through PuTTY using a serial connection at a Baud rate of 115200.
+      through PuTTY using a serial connection at a Baud rate of 115200. 
      
-   - Network configuration
+   - Network configuration:
+      The NVIDIA Jetson 6.1 device was connected using the nmcli command. IP address was found 
+      using the ifconfig command would provide a path for interent conenction of the Jetson 
+      device. SSH access was used with PuTTY using IP address as serial cable is no longer  
+      needed.
+
+   - Camera Configuration:
+      Camera was set up using the nvgstcapture command to capture images and manually video the 
+      environment.
+
 
 List of possible hardware,software frameworks and libraries that can be used:
 - Hardware: Monitor, keyboard, camera, NVIDIA Jetson 6.1 device, mouse
