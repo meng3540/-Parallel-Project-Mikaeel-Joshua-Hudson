@@ -33,7 +33,7 @@ List of possible hardware,software frameworks and libraries that can be used:
 
   
 Choice of pre-trained models and rationale for your selection
-- YOLOv11N
+- YOLOv11n
 
 The reasoning for choosing this pre-trained model is due to how optimized this model is for real time object detection as it offers a good ballance between speed and accuracy when compared to others. It provides proper detection acrosss many common obects wihtout the need for custom training. Its very flexible as there are different model sizes of YOLOv5 which can be chosen based on performance or resource limitations. Lastly, it is very easy to implement as it supports GPU acceleration and integration with the TensorRT.
 
