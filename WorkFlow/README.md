@@ -16,28 +16,23 @@ b. Type ‘mode’ into windows command prompt to find the correct COM
 provided in SD card Preparation (4th step)
 5. Log in using your created user ID and password (write these down you will need these
 every time you use the jetson nano)
+
 Connecting to WIFI
 1. Command to connect to your Wi-Fi network (replace angle brackets with SSID and
 password):
-a. sudo nmcli device wifi connect <MY_WIFI_AP> password
-<MY_WIFI_PASSWORD>
-b. Further guide can be found here (Source 3)
-2. A message should come up saying it is successfully activated, once this is active, find and
-record the IP address of the Jetson Nano using: $ ifconfig in the command line
-3. If the PC and the Jetson nano are on the same Wi-Fi network, the serial cable can be
-disconnected and you can use PuTTY to connect to the jetson through wifi:
-a. PuTTY -> enter IP of Jetson Nano -> Choose the SSH -> Use the same user ID and
-password that was used to set up serial connection
+    a. sudo nmcli device wifi connect <MY_WIFI_AP> password <MY_WIFI_PASSWORD>
+    b. Further guide can be found here (Source 3)
+2. A message should come up saying it is successfully activated, once this is active, find and record the IP address of the Jetson Nano using: $ ifconfig in the command line
+3. If the PC and the Jetson nano are on the same Wi-Fi network, the serial cable can be disconnected and you can use PuTTY to connect to the jetson through wifi:
+    a. PuTTY -> enter IP of Jetson Nano -> Choose the SSH -> Use the same user ID and password that was used to set up serial connection
+   
 Acquiring Pictures from camera
 1. From this source (Source 4) follow the following steps:
-a. Start at ‘USB Camera’ section, paste the first ‘nvgstcapture’ code in the terminal
-(not in any folders) with N as 0
-b. Scroll to the next ‘USB camera’ section to capture images, this gives 2 options to
-capture images, manually or automatically. Run these lines in the command
-window. If this process works as expected, video can be captured in part c.
-c. To capture video, run the lines in the next ‘USB camera’ section in the same
-fashion as previous. This also gives 2 options for video capture, manual and
+    a. Start at ‘USB Camera’ section, paste the first ‘nvgstcapture’ code in the terminal (not in any folders) with N as 0
+    b. Scroll to the next ‘USB camera’ section to capture images, this gives 2 options to capture images, manually or automatically. Run these lines in the command window. If this process works as expected, video can be captured in part c.
+    c. To capture video, run the lines in the next ‘USB camera’ section in the same fashion as previous. This also gives 2 options for video capture, manual and
 automatic.
+
 Initializations for Coding
 1. Install VS code:
 a. Use chromium browser to download VS code
