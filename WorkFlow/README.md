@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/c5c1be50-dbeb-45b1-9fd0-bc159949a08c">
+  <img src="[https://github.com/user-attachments/assets/c5c1be50-dbeb-45b1-9fd0-bc159949a08c](https://github.com/meng3540/-Parallel-Project-Mikaeel-Joshua-Hudson/blob/cb8200db235ca44eb5db3ec45d252eb63d6cea8f/WorkFlow/Block%20Diagram.jpeg)">
 </div>
 NOTE: each source is chronologically provided at the bottom of this document
 
