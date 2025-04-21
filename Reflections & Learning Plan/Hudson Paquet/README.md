@@ -4,7 +4,7 @@ Knowledge Gaps noticed: - Background of what frameworks do and what they are use
                         - Understanding of SD card preparations 
                         - Background on VScode extensions 
 
-Additional skills for larger scale project: - How to interface an industrial camera o rmachine vision camera - More optimized GPU accleration techniques for this application - Ability for headless operation of Jetson or any method that makes the Jetson more capable from an implementation standpoint.
+Additional skills for larger scale project: - How to interface an industrial camera or machine vision camera - More optimized GPU accleration techniques for this application - Ability for headless operation of Jetson or any method that makes the Jetson more capable from an implementation standpoint.
 
-
+Training and resources for larger scale project: - Machine Vision Camera - Furthur knowledge base on CUDA programming in python (NVIDIA website) - Furthur knowledge on VNC servers and/or connectivity capabilities of Jetson (NVIDIA Website)
                         
