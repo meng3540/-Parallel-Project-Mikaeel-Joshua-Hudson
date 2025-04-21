@@ -1,4 +1,4 @@
-NOTE: links may not work, each source is chronologically provided at the bottom of this document
+NOTE: each source is chronologically provided at the bottom of this document
 
 SD card Preparation
 1. Download Jetpack 6.1 (Source 1) : SD Card Image Method -> Download Jetson Orin Super Developer kit
