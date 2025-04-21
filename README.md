@@ -11,7 +11,7 @@ Initial configuration and setup of the edge device and the software:
       This was done after formatting the card with SD formatter.
      
    - Booting and serial connection setup for NVIDIA JEtson 6.1:
-      The Jetson Nano was connected to a host PC using a USB-C cable and intiial setup was done 
+      The Jetson Orin Nano was connected to a host PC using a USB-C cable and intiial setup was done 
       through PuTTY using a serial connection at a Baud rate of 115200. 
      
    - Network configuration:
