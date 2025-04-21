@@ -142,7 +142,7 @@ Model selection and GPU allocation
 
       i. results = model(source=0,stream=true)
 
-4. Finalize code in .py file, Refer to: Code and Output -> Code (repository)
+4. Finalize code in .py file, Refer to: Code and Output -> Final Code (repository)
 
    a. Insure that lines 1-3 are present at the top of code
 
