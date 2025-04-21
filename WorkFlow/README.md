@@ -1,3 +1,4 @@
+The System Block Diagram is as follows:
 <div align="center">
   <img src="https://github.com/meng3540/-Parallel-Project-Mikaeel-Joshua-Hudson/blob/cb8200db235ca44eb5db3ec45d252eb63d6cea8f/WorkFlow/Block%20Diagram.jpeg">
 </div>
