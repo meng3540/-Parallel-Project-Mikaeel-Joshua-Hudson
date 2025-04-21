@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c5c1be50-dbeb-45b1-9fd0-bc159949a08c">
+</div>
 NOTE: each source is chronologically provided at the bottom of this document
 
 SD card Preparation
