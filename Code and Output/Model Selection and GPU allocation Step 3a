@@ -11,3 +11,6 @@ trt_model = YOLO("yolo11n.engine")
 
 # Run inference
 results = trt_model("https://ultralytics.com/images/bus.jpg")
+
+results.print()  # Print results to console
+results.show()  # Display results in a window
